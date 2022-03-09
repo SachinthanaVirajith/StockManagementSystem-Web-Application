@@ -1,0 +1,21 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+.footerkinks:hover {
+    color: yellow;
+}
+
+#footer1 {
+    background: #848482;
+}
+
+#footer2 {
+    background: #B6B6B4;
+}
+
+.margin{
+    margin-top:1000px;
+    margin-bottom:1000px;
+}

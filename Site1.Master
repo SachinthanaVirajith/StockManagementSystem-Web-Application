@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TCPStockManagementSystem.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--Bootsrap css--%>
+    <link href="Bootsrap/bootstrap.min.css" rel="stylesheet" />
+
+    <%--Customize Css--%>
+    <link href="Css/styles.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div>
+            <nav class="navbar navbar-light bg-light" style="background-color: #FFFFFF">
+                <div class="container-fluid">
+                 <a class="navbar-brand" href="#">
+            <img src="images/transperent-full.png" alt="" width="210" height="110" class="d-inline-block align-text-bottom" >
+                 Stock Management System
+            </a>
+            </div>
+                </nav>          
+                <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>-->
+
+                <br /><br />
+                 <!--<ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><h5>###</h5></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><h5>###</h5></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><h5>Log Out</h5></a>
+                      </li>
+                    </ul>-->
+  
+        </div>
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer style="position: fixed; width: 100%; bottom: 0px;">
+            
+            <div class="container-fluid" style="position:page;background-color:#81d742">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color:whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">3Way Solutions</a></p>
+                    </div>
+                </div>
+            </div>
+ 
+        </footer>
+    </form>
+</body>
+</html>
+
+
+
+
+
